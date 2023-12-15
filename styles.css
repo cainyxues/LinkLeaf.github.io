@@ -1,0 +1,89 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image:url(22379981_6562423.jpg);
+    background-repeat: no-repeat;
+    background-size: 1400px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
+header{
+    width: 95%;
+    max-width: 788px;
+    display: flex;
+    justify-content: flex-end;
+    padding: 12px;
+    margin-top: 15px;
+}
+
+header .share-button svg {
+    margin: 9px;
+}
+
+.share-button{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: black;
+}
+
+.container{
+    width: 80%;
+    max-width: 680px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tile{
+    width: 100%;
+    background-color:black;
+    margin: 7px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tile:hover{
+    transition: cubic-bezier(.07, 1.41, .82, 1.41) 0.2s;
+    transform: scale(1.02);
+}
+
+.tile-share-button {
+    margin: 8px;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: whitesmoke;
+}
+
+.tile-share-button svg {
+    margin: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+h1{
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+.image-container {
+    border-radius: 100px;
+    border: 4px solid black;
+    overflow: hidden;
+}
+
+.icon {
+    margin: 8px;
+    width: 44px;
+    height: 44px;
+}
